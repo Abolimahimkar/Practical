@@ -1,0 +1,21 @@
+
+public class calculate
+{
+    public static void main(String args[])
+  {
+      System.out.println("The two number is; ");
+      int a=10;
+      int b=15;
+      System.out.println(a+""+b);
+    
+    int add = a + b;
+    int subtract = a - b;
+    int multiply = a * b;
+    float devide = a / b;
+
+    System.out.println("Sum = " + add);
+    System.out.println("Difference = " + subtract);
+    System.out.println("Multiplication = " + multiply);
+    System.out.println("Division = " + devide);
+  }
+}

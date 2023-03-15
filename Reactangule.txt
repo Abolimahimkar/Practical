@@ -1,0 +1,11 @@
+
+class Reactangule
+{
+    public static void main(String args[])
+    {
+        int lenght =12;
+        int breadth = 15;
+        int perimeter =2*(lenght+breadth);
+        System.out.println("perimeter of Reactangule is :" +perimeter);
+    }
+}

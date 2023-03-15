@@ -1,0 +1,26 @@
+
+class Datatype
+{
+    int a;
+    short b;
+    long g;
+    double h;
+    float i;
+    char j;
+    void show()
+    {
+        System.out.println("int"+a);
+        System.out.println("short"+b);
+        System.out.println("long"+g);
+        System.out.println("double"+h);
+        System.out.println("float"+i);
+        System.out.println("char"+j);
+    }
+    public static void main(String args[])
+    {
+        Datatype object = new Datatype();
+        System.out.println("The default values are given below:");
+        object.show();
+    }
+    
+}
